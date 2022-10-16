@@ -42,10 +42,10 @@ fn intro(score:&mut i32, door_number:&mut i32) {
     let mut answer = String::new();
     io::stdin().read_line(&mut answer).expect("failed to readline");
     if answer.trim() == "yes" {
-        println!("You enter the house and see the three doors before you.");
+        println!("You enter the house and see the two doors before you.");
         *score += 1;
     } else if answer.trim() == "Yes" {
-        println!("You enter the house and see the three doors before you.");
+        println!("You enter the house and see the two doors before you.");
         *score += 1;
     } else {
         println!("Oh well, it's a little late to decide that. You are drawn into the house.");
@@ -79,7 +79,7 @@ fn door_1(score:&mut i32) {
             println!("A secret compartment in the wall nearby opens up and you find a gold coin!");
             *score += gold;
         } else {
-            println!("Sorry to say you didn't choose wisely and you feel your pockets feel ligher
+            println!("Sorry to say you didn't choose wisely and you feel your pockets feel lighter
             than they did before.");
             *score -= 3;
         }
