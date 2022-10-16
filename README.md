@@ -8,7 +8,7 @@ scenarios that will ask for their input and relay the consequences (whether they
 in the end. This program helped me gain a stronger understanding of Rust and what it is
 capable of.
 
-Rusty Adventure Demo (http://youtube.link.goes.here)
+Rusty Adventure Demo https://youtu.be/D4Qrz15tVfk
 
 # Development Environment
 
@@ -16,8 +16,6 @@ Visual Studio Code 1.72.2
 Rust 2021
   std::io
   std::collections::HashMap
-
-{Describe the programming language that you used and any libraries.}
 
 # Useful Websites
 
